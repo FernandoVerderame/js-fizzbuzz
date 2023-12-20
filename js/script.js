@@ -20,4 +20,8 @@ for (let i = 1; i <= 100; i++) {
         console.log('Fizz');
 
     } 
+        // Numero divisibile per 5
+        else if (i % y == 0) {
+        console.log('Buzz');
+    }
 }
