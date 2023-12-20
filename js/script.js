@@ -41,3 +41,56 @@ listSquare += '</div>';
 console.log(listSquare);
 
 element.innerHTML = listSquare;
+
+
+
+
+/*
+// ! MANIPOLAZIONE DEL DOM
+
+// Dichiariamo due variabili
+x = 3;
+y = 5;
+
+const list = document.createElement('div');
+
+// Creo un ciclo di numeri da 1 a 100
+for (let i = 1; i <= 100; i++) {
+
+    // Numero NON divisibile ne per 3 ne per 5
+    if (!(i % x == 0) && !(i % y == 0)) {
+        console.log(i);
+        const listSquare = document.createElement('div');
+        listSquare.append(i);
+        list.appendChild(listSquare);
+
+    } 
+        // Numero divisibile sia per 3 che 5
+        else if ((i % x == 0) && (i % y == 0)) {
+        console.log('FizzBuzz');        
+        const listSquare = document.createElement('div');
+        listSquare.append('FizzBuzz');
+        list.appendChild(listSquare);
+
+    } 
+        // Numero dibisibile per 3
+        else if (i % x == 0) {
+        console.log('Fizz');
+        const listSquare = document.createElement('div');
+        listSquare.append('Fizz');
+        list.appendChild(listSquare);
+
+    } 
+        // Numero divisibile per 5
+        else if (i % y == 0) {
+        console.log('Buzz');
+        const listSquare = document.createElement('div');
+        listSquare.append('Buzz');
+        list.appendChild(listSquare);
+
+    }
+}
+
+
+element.appendChild(list);
+*/
