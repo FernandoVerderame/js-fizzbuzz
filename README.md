@@ -27,3 +27,14 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
 Come abbiamo visto puoi  usare varie tecniche (style , className, classList)
  Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
 Buon lavoro e buon divertimento!
+
+
+
+
+# SCALETTA
+1. Dichiaro due variabili x = 3 e Y = 5
+2. Costruiamo un ciclo di numeri da 1 a 100
+3. Se il numero NON è divisibile ne per 3 e ne per 5 stampiamo il numero in console
+4. Se il numero è divisibile per 3 e 5, allora stampiamo 'FizzBuzz'
+5. Se il numero è divisibile soltanto per 3, allora stampiamo 'Fizz'
+6. Se il numero è divisibile soltanto per 5, allora stampiamo 'Buzz'
