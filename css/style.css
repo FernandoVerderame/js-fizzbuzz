@@ -1,5 +1,19 @@
+/* Generics */
+h1 {
+    font-size: 70px;
+}
+
 /* Quadrati */ 
 .square {
     width: 100px;
     height: 100px;
+    margin: 20px;
+    display: inline-block;
+    padding-top: 38px;
 }
+
+/* Main */
+main {
+    background-color: #083B4C;
+}
+
