@@ -10,4 +10,9 @@ for (let i = 1; i <= 100; i++) {
         console.log(i);
 
     } 
+        //Numero divisibile sia per 3 che 5
+        else if ((i % x == 0) && (i % y == 0)) {
+        console.log('FizzBuzz');
+
+    } 
 }
