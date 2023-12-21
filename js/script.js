@@ -11,25 +11,25 @@ let listSquare = '<div>';
 for (let i = 1; i <= 100; i++) {
 
     // Numero NON divisibile ne per 3 ne per 5
-    if (!(i % x == 0) && !(i % y == 0)) {
+    if (!(i % x === 0) && !(i % y === 0)) {
         console.log(i);
         listSquare += `<div class="bg-primary square">${i}</div>`;
 
     } 
         // Numero divisibile sia per 3 che 5
-        else if ((i % x == 0) && (i % y == 0)) {
+        else if ((i % x === 0) && (i % y === 0)) {
         console.log('FizzBuzz');
         listSquare += '<div class="bg-danger square">FizzBuzz</div>';
 
     } 
         // Numero dibisibile per 3
-        else if (i % x == 0) {
+        else if (i % x === 0) {
         console.log('Fizz');
         listSquare += '<div class="bg-success square">Fizz</div>';
 
     } 
         // Numero divisibile per 5
-        else if (i % y == 0) {
+        else if (i % y === 0) {
         console.log('Buzz');
         listSquare += '<div class="bg-warning square">Buzz</div>';
 
@@ -58,7 +58,7 @@ const list = document.createElement('div');
 for (let i = 1; i <= 100; i++) {
 
     // Numero NON divisibile ne per 3 ne per 5
-    if (!(i % x == 0) && !(i % y == 0)) {
+    if (!(i % x === 0) && !(i % y === 0)) {
         console.log(i);
         const listSquare = document.createElement('div');
         listSquare.append(i);
@@ -66,7 +66,7 @@ for (let i = 1; i <= 100; i++) {
 
     } 
         // Numero divisibile sia per 3 che 5
-        else if ((i % x == 0) && (i % y == 0)) {
+        else if ((i % x === 0) && (i % y === 0)) {
         console.log('FizzBuzz');        
         const listSquare = document.createElement('div');
         listSquare.append('FizzBuzz');
@@ -74,7 +74,7 @@ for (let i = 1; i <= 100; i++) {
 
     } 
         // Numero dibisibile per 3
-        else if (i % x == 0) {
+        else if (i % x === 0) {
         console.log('Fizz');
         const listSquare = document.createElement('div');
         listSquare.append('Fizz');
@@ -82,7 +82,7 @@ for (let i = 1; i <= 100; i++) {
 
     } 
         // Numero divisibile per 5
-        else if (i % y == 0) {
+        else if (i % y === 0) {
         console.log('Buzz');
         const listSquare = document.createElement('div');
         listSquare.append('Buzz');
